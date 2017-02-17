@@ -1,0 +1,209 @@
+/* styles.css */
+
+body {
+    text-align: center;
+    background: url('../img/tile.jpg') top left repeat;
+}
+
+button {
+    background: #933;
+    color: white;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    min-height: 50px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-60px);
+}
+
+.navbar-brand {
+    padding-top: 6px;
+}
+
+.chart-layout {
+    background: white;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#chart_div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100% !important;
+    max-width: 500px;
+    height: auto !important;
+}
+
+#control-area {
+    background-size: cover;
+    min-height: 165px;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+
+#control-pad {
+    background: gray;
+    background-size: cover;
+    min-height: 250px; 
+    margin-bottom: 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+
+#navArrows {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    margin: 30px auto 0;
+    background: #333;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.navigationArrow {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    color: #222;
+}
+
+#btnOn {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 70px auto 0;
+    background: #333;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+#btnOff {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 90px auto 0;
+    background: #333;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.buttonOn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    color: #222;
+}
+
+.buttonOff {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: white;
+    color: #222;
+}
+
+#output{
+
+    background: #3e4249;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+footer {
+    background: #3e4249;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#up {
+    left: 50%;
+    margin-left: -25px;
+}
+
+#left, #right {
+    top: 50%;
+    margin-top: -25px;
+}
+
+#right {
+    right: 20px;
+    left: inherit;
+}
+
+#down {
+    bottom: 20px;
+    top: inherit;
+    left: 50%;
+    margin-left: -25px;
+}
+
+#on {
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+#off {
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.boat {
+    background: url('../img/boat.png') center left repeat-x;
+    height: 110px;
+    width: 110px;
+    color: white;
+    border: solid 4px #05cd3c;
+    border-radius: 50%;
+    line-height: 100px;
+    margin: 200px auto 0;
+    opacity: 0.5;
+    position: relative;     
+}
+
